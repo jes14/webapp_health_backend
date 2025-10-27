@@ -1,0 +1,50 @@
+[
+  {
+    "id": "e1",
+    "period": {
+      "start": "2025-08-20"
+    },
+    "subject": {
+      "reference": "Patient/p1"
+    },
+    "diagnosis": [
+      {
+        "condition": {
+          "reference": "Condition/c1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e1756225350555",
+    "period": {
+      "start": "0211-02-22"
+    },
+    "subject": {
+      "reference": "Patient/p1756225049971"
+    },
+    "diagnosis": [
+      {
+        "condition": {
+          "reference": "Condition/c1756225344336"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e1761555283051",
+    "period": {
+      "start": "2025-10-09"
+    },
+    "subject": {
+      "reference": "Patient/p1756225049971"
+    },
+    "diagnosis": [
+      {
+        "condition": {
+          "reference": "Condition/c1756225344336"
+        }
+      }
+    ]
+  }
+]

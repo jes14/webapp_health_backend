@@ -1,0 +1,47 @@
+[
+  {
+    "id": "c1",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "195967001",
+          "display": "Asthma"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/p1"
+    }
+  },
+  {
+    "id": "c1756225344336",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "ee",
+          "display": "ee"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/p1756225049971"
+    }
+  },
+  {
+    "id": "c1761555272669",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "easd",
+          "display": "easdf"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/p1756225049971"
+    }
+  }
+]
