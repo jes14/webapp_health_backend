@@ -9,10 +9,10 @@ app.use(express.json());
 app.post('/api/report', async (req, res) => {
   try {
     await sendToFHIR(req.body);
-    res.status(200).send('FHIR 전송 완료');
+    res.status(200).send('FHIR Sent');
   } catch (err) {
     console.error(err);
-    res.status(500).send('오류 발생');
+    res.status(500).send('Error');
   }
 });
 

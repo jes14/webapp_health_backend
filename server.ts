@@ -12,9 +12,6 @@ const DATA_DIR = path.join(__dirname, "data");
 const readJson = (file: string) => JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf8"));
 const writeJson = (file: string, data: any) => fs.writeFileSync(path.join(DATA_DIR, file), JSON.stringify(data, null, 2));
 
-// --------------------
-// CRUD Helper Functions
-// --------------------
 const setupCRUD = (resourceName: string) => {
   const fileName = `${resourceName}.json`;
 
@@ -45,7 +42,7 @@ const setupCRUD = (resourceName: string) => {
   });
 };
 
-// Resource CRUD
+
 ["patients", "conditions", "encounters"].forEach(setupCRUD);
 
 app.listen(3001, () => console.log("Backend running on http://localhost:3001"));
